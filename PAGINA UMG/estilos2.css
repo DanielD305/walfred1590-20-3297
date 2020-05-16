@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(leon.jpg ); background-repeat: no-repeat;
+    background-size: 100% 100%; background-attachment: fixed;
+   
+}
+table, th, td {
+    border: 5px solid black;
+    border-collapse:collapse;
+    background-color: rgba(30, 189, 210, 0.096);
+}
+th, td {
+    padding: 15px
+}
+
+    
+
+
+
+
+

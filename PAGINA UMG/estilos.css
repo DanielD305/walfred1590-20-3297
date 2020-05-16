@@ -1,0 +1,86 @@
+body { background:url(invierno.jpg); 
+        background-repeat: no-repeat;
+        background-size: 100% 100%; 
+        background-attachment: fixed;
+        background-color: rgb(63, 56, 56);
+        background-blend-mode: soft-light;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+header {
+    width: 100%;
+    background: #626f70;
+}
+#btn-menu {
+    display:none ;
+}
+header label {
+    display: none;
+    width: 30px;
+    height: 25px;
+    padding: 5px;
+    border-right: 1px solid #fff;
+}
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0,0.3);
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+} 
+
+.menu li {
+    border-right: 1px solid #fff;
+}
+
+.menu li:hover {
+   background: rgba(0, 0, 0,0.3); 
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color:#fff ;
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background:#0d9eac;
+        width: 60%; 
+        margin-left: -60%;
+        transition: all 0.7s ;
+        }
+    .menu ul {
+        flex-direction: column;
+        }
+    .menu li {
+        border-top: 1px solid #fff;
+    }
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+    }
+}
+main {
+   
+    margin: 0%;
+    color: rgb(1, 8, 8);
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+main h1 {
+    padding: 10%;
+    width: 80%;
+    font-family: 'raleway 400';
+}

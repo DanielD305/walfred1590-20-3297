@@ -1,0 +1,90 @@
+#a {
+    width: 750px;
+    height: 1100px;
+    background-color: rgb(223, 223, 223);
+    border: 5px solid rgb(17, 32, 54);
+    margin: auto;
+    position: relative;
+}
+#profilepic {
+    width: 100px;
+    height: 150px;
+    float: left;
+    border-radius:  100px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px black;
+    margin: 10px;
+    filter: grayscale(20%);
+}
+#name {
+    
+    float: left;
+    margin-top: 60px;
+    margin-left: 150px;
+    font-family: 'Raleway', sans-serif;
+}
+#nas {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 250px;
+
+}
+.b {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 550px;
+}
+.b h1{
+    margin: 20px;
+}
+.s {
+    margin-top: -20px;
+    width: 120%;
+    height: 2px;
+    color: rgb(11, 128, 236);
+    background: rgb(11, 128, 236);
+}
+.datos {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.b2 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 550px;
+}
+.b2 {
+    margin: 0;
+    font-size: 15px;
+}
+.b3 {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 0px;
+    width: 550px;
+}
+.b3 {
+    font-size: 15px;
+}
+.b4 {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 0px;
+    width: 550px;
+    
+}
+.b4 {
+    font-size: 15px;
+}
+body {
+    background: url(imagen/cat.jpg);
+    background-color: rgb(63, 56, 56);
+    background-blend-mode: soft-light;
+
+    
+}
+
+
